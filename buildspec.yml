@@ -1,0 +1,11 @@
+version: 0.1
+
+phases:
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - mvn package
+artifacts:
+  files:
+    - target/test-0.0.1-SNAPSHOT.war
+  discard-paths: yes
