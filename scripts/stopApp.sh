@@ -13,4 +13,4 @@ else
 fi
 
 rm -rf /home/ec2-user/deploy/
-mdkir -p /home/ec2-user/deploy/
+mkdir -p /home/ec2-user/deploy/
