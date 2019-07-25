@@ -4,10 +4,14 @@ phases:
   install:
     runtime-versions:
         java: openjdk8     
-  post_build:
+  build:
     commands:
       - echo Build completed on `date`
       - mvn package -DskipTests
+  post_build:
+    commands:
+      - chmod +x scripts/**
+
 artifacts:
   files:
     - target/test-0.0.1-SNAPSHOT.war
