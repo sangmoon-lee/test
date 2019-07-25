@@ -11,11 +11,11 @@ phases:
   post_build:
     commands:
       - chmod +x scripts/**
-      - chmod +x ./target/*.war
+      - chmod +x ./target/*.jar
 
 artifacts:
   files:
-    - target/test-0.0.1-SNAPSHOT.war
+    - target/test-0.0.1-SNAPSHOT.jar
     - appspec.yml
     - scripts/**
   discard-paths: yes
