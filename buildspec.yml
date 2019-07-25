@@ -11,6 +11,7 @@ phases:
   post_build:
     commands:
       - chmod +x scripts/**
+      - chmod +x ./build/libs/*.war
 
 artifacts:
   files:
