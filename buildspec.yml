@@ -12,4 +12,5 @@ artifacts:
   files:
     - target/test-0.0.1-SNAPSHOT.war
     - appspec.yml
+    - scripts/**
   discard-paths: yes
