@@ -3,7 +3,7 @@
 <html>
     <body>
         <form >
-            view test ~~~~
+            view test
         </form>
     </body>
 </html>
